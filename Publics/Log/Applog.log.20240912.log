@@ -1,0 +1,9 @@
+﻿2024-09-12 22:38:27,950 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted - 'Set property 'System.Windows.ResourceDictionary.Source' threw an exception.' Line number '18' and line position '18'.
+2024-09-12 22:38:27,996 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.Examination.Views.ExportExam.InitializeComponent() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml:line 1
+   at Plugin.Examination.Views.ExportExam..ctor(DELEGATE_VOID_AFTER_CLOSE _delegateVoid, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml.cs:line 47
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1049
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1067

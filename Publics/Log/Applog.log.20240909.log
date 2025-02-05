@@ -1,0 +1,62 @@
+﻿2024-09-09 21:36:07,895 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted - The component 'Plugin.Theses.Views.MainMultiLevel' does not have a resource identified by the URI '/INV.Framework.Theses.Library;component/views/mainmultilevel.xaml'.
+2024-09-09 21:36:08,515 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.Theses.Views.MainMultiLevel.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\Views\MainMultiLevel.xaml:line 1
+   at Plugin.Theses.Views.MainMultiLevel..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\Views\MainMultiLevel.xaml.cs:line 22
+   at Plugin.Theses.ConectionSdk.Process(IDictionary`2 key) in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\ConnectionSDK.cs:line 40
+   at WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 498
+2024-09-09 22:26:17,994 ERROR [5] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Can't set color when patterntype is not set.
+2024-09-09 22:26:18,055 ERROR [5] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetIdFill(eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetNewID(ExcelStyleCollection`1 xfsCol, StyleBase styleObject, eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.ExcelStyles.<>c__DisplayClass16_1.<SetStyleAddress>b__0(List`1 list, Int32 index, Int32 row, Int32 column, Object args)
+   at CellStore`1.SetRangeValueSpecial(Int32 fromRow, Int32 fromColumn, Int32 toRow, Int32 toColumn, SetRangeValueDelegate Updater, Object Value)
+   at OfficeOpenXml.ExcelStyles.SetStyleAddress(StyleBase sender, StyleChangeEventArgs e, ExcelAddressBase address, ExcelWorksheet ws, Dictionary`2& styleCashe)
+   at OfficeOpenXml.ExcelStyles.PropertyChange(StyleBase sender, StyleChangeEventArgs e)
+   at OfficeOpenXml.Style.ExcelColor.set_Rgb(String value)
+   at OfficeOpenXml.Style.ExcelColor.SetColor(Color color)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDowData(ExcelWorksheet workSheet, Int32& rowIndex, List`1 lstTitle, Int32 startRow) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1686
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4164
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737
+2024-09-09 22:27:06,869 ERROR [16] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Can't set color when patterntype is not set.
+2024-09-09 22:27:06,870 ERROR [16] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetIdFill(eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetNewID(ExcelStyleCollection`1 xfsCol, StyleBase styleObject, eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.ExcelStyles.<>c__DisplayClass16_1.<SetStyleAddress>b__0(List`1 list, Int32 index, Int32 row, Int32 column, Object args)
+   at CellStore`1.SetRangeValueSpecial(Int32 fromRow, Int32 fromColumn, Int32 toRow, Int32 toColumn, SetRangeValueDelegate Updater, Object Value)
+   at OfficeOpenXml.ExcelStyles.SetStyleAddress(StyleBase sender, StyleChangeEventArgs e, ExcelAddressBase address, ExcelWorksheet ws, Dictionary`2& styleCashe)
+   at OfficeOpenXml.ExcelStyles.PropertyChange(StyleBase sender, StyleChangeEventArgs e)
+   at OfficeOpenXml.Style.ExcelColor.set_Rgb(String value)
+   at OfficeOpenXml.Style.ExcelColor.SetColor(Color color)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDowData(ExcelWorksheet workSheet, Int32& rowIndex, List`1 lstTitle, Int32 startRow) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1686
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4164
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737
+2024-09-09 22:28:00,373 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Can't set color when patterntype is not set.
+2024-09-09 22:28:00,373 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetIdFill(eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetNewID(ExcelStyleCollection`1 xfsCol, StyleBase styleObject, eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.ExcelStyles.<>c__DisplayClass16_1.<SetStyleAddress>b__0(List`1 list, Int32 index, Int32 row, Int32 column, Object args)
+   at CellStore`1.SetRangeValueSpecial(Int32 fromRow, Int32 fromColumn, Int32 toRow, Int32 toColumn, SetRangeValueDelegate Updater, Object Value)
+   at OfficeOpenXml.ExcelStyles.SetStyleAddress(StyleBase sender, StyleChangeEventArgs e, ExcelAddressBase address, ExcelWorksheet ws, Dictionary`2& styleCashe)
+   at OfficeOpenXml.ExcelStyles.PropertyChange(StyleBase sender, StyleChangeEventArgs e)
+   at OfficeOpenXml.Style.ExcelColor.set_Rgb(String value)
+   at OfficeOpenXml.Style.ExcelColor.SetColor(Color color)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDowData(ExcelWorksheet workSheet, Int32& rowIndex, List`1 lstTitle, Int32 startRow) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1686
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4164
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737
+2024-09-09 22:32:53,752 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Can't set color when patterntype is not set.
+2024-09-09 22:32:53,786 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetIdFill(eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.Style.XmlAccess.ExcelXfs.GetNewID(ExcelStyleCollection`1 xfsCol, StyleBase styleObject, eStyleClass styleClass, eStyleProperty styleProperty, Object value)
+   at OfficeOpenXml.ExcelStyles.<>c__DisplayClass16_1.<SetStyleAddress>b__0(List`1 list, Int32 index, Int32 row, Int32 column, Object args)
+   at CellStore`1.SetRangeValueSpecial(Int32 fromRow, Int32 fromColumn, Int32 toRow, Int32 toColumn, SetRangeValueDelegate Updater, Object Value)
+   at OfficeOpenXml.ExcelStyles.SetStyleAddress(StyleBase sender, StyleChangeEventArgs e, ExcelAddressBase address, ExcelWorksheet ws, Dictionary`2& styleCashe)
+   at OfficeOpenXml.ExcelStyles.PropertyChange(StyleBase sender, StyleChangeEventArgs e)
+   at OfficeOpenXml.Style.ExcelColor.set_Rgb(String value)
+   at OfficeOpenXml.Style.ExcelColor.SetColor(Color color)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1532
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4173
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737
+2024-09-09 22:39:45,446 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - The process cannot access the file 'E:\OS\test_pro\de_thi\test_2\1\PhieuSoiDapAn.xlsx' because it is being used by another process.
+2024-09-09 22:39:45,477 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.File.InternalWriteAllBytes(String path, Byte[] bytes, Boolean checkHost)
+   at System.IO.File.WriteAllBytes(String path, Byte[] bytes)
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4186
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737

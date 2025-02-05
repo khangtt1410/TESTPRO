@@ -1,0 +1,8 @@
+﻿2024-10-18 09:52:18,640 ERROR [1] WindowMain.ViewModels.ViewModelMain.<get_BackToMainMenuCommand>b__151_0 - 'Set connectionId threw an exception.' Line number '32' and line position '10'.
+2024-10-18 09:52:18,667 ERROR [1] WindowMain.ViewModels.ViewModelMain.<get_BackToMainMenuCommand>b__151_0 -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at WindowMain.View.MainMenuSphere.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\View\MainMenuSphere.xaml:line 1
+   at WindowMain.View.MainMenuSphere..ctor(Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\View\MainMenuSphere.xaml.cs:line 22
+   at WindowMain.ViewModels.ViewModelMain.<get_BackToMainMenuCommand>b__151_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 1581

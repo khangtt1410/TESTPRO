@@ -1,0 +1,20 @@
+﻿2024-10-22 09:00:26,103 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_TypeSelectionChangedCommand>b__132_0 - Object reference not set to an instance of an object.
+2024-10-22 09:00:26,118 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_TypeSelectionChangedCommand>b__132_0 -    at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_TypeSelectionChangedCommand>b__132_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3821
+2024-10-22 15:25:53,715 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted - 'Get property 'System.Windows.Interactivity.TriggerBase.Actions' threw an exception.' Line number '25' and line position '5'.
+2024-10-22 15:25:53,732 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.ProductInfo.MainWindow.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\Views\MainWindow.xaml:line 1
+   at Plugin.ProductInfo.MainWindow..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\Views\MainWindow.xaml.cs:line 25
+   at Plugin.ProductInfo.ConectionSdk.Process(IDictionary`2 key) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\ConnectionSDK.cs:line 38
+   at WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 511
+2024-10-22 15:35:46,850 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted - 'Get property 'System.Windows.Interactivity.TriggerBase.Actions' threw an exception.' Line number '25' and line position '5'.
+2024-10-22 15:35:46,869 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.ProductInfo.MainWindow.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\Views\MainWindow.xaml:line 1
+   at Plugin.ProductInfo.MainWindow..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\Views\MainWindow.xaml.cs:line 25
+   at Plugin.ProductInfo.ConectionSdk.Process(IDictionary`2 key) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.ProductInfo\ConnectionSDK.cs:line 38
+   at WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 511

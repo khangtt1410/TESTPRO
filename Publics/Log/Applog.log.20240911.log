@@ -1,0 +1,32 @@
+﻿2024-09-11 22:27:51,417 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-11 22:27:51,449 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color, Int32 qType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1590
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4278
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 745
+2024-09-11 22:29:53,927 ERROR [19] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-11 22:29:53,928 ERROR [19] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color, Int32 qType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1590
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4278
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 745
+2024-09-11 22:30:32,874 ERROR [21] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-11 22:30:32,896 ERROR [21] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color, Int32 qType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1590
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4278
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 745
+2024-09-11 22:30:51,847 ERROR [23] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-11 22:30:51,848 ERROR [23] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color, Int32 qType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1590
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4278
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 745

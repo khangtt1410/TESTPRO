@@ -1,0 +1,41 @@
+﻿2024-10-19 10:14:10,065 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted - 'Get property 'System.Windows.Interactivity.TriggerBase.Actions' threw an exception.' Line number '406' and line position '9'.
+2024-10-19 10:14:10,094 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.Examination.Views.ExportExam.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml:line 1
+   at Plugin.Examination.Views.ExportExam..ctor(DELEGATE_VOID_AFTER_CLOSE _delegateVoid, Dictionary`2 dicData) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml.cs:line 22
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_Method() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1245
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1266
+2024-10-19 10:21:31,946 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted - 'Get property 'System.Windows.Interactivity.TriggerBase.Actions' threw an exception.' Line number '406' and line position '9'.
+2024-10-19 10:21:31,959 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted -    at System.Windows.Markup.WpfXamlLoader.Load(XamlReader xamlReader, IXamlObjectWriterFactory writerFactory, Boolean skipJournaledProperties, Object rootObject, XamlObjectWriterSettings settings, Uri baseUri)
+   at System.Windows.Markup.WpfXamlLoader.LoadBaml(XamlReader xamlReader, Boolean skipJournaledProperties, Object rootObject, XamlAccessLevel accessLevel, Uri baseUri)
+   at System.Windows.Markup.XamlReader.LoadBaml(Stream stream, ParserContext parserContext, Object parent, Boolean closeStream)
+   at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.Examination.Views.ExportExam.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml:line 1
+   at Plugin.Examination.Views.ExportExam..ctor(DELEGATE_VOID_AFTER_CLOSE _delegateVoid, Dictionary`2 dicData) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml.cs:line 22
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_Method() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1245
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1266
+2024-10-19 10:41:24,946 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 - The given key was not present in the dictionary.
+2024-10-19 10:41:24,960 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.Helpers.ThesisComparer.SetLevel(Thesis Thesis) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Helpers\ItemComparer.cs:line 24
+   at Plugin.Examination.Helpers.ThesisComparer..ctor(IEnumerable`1 list) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Helpers\ItemComparer.cs:line 18
+   at Plugin.Examination.ViewModels.BLLPlugin.LoadGridMainByListThesis(ObservableCollection`1& lstGridMain, List`1 lstInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 3263
+   at Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ListThesis_ViewModel.cs:line 371
+2024-10-19 10:42:35,207 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 - The given key was not present in the dictionary.
+2024-10-19 10:42:35,207 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.Helpers.ThesisComparer.SetLevel(Thesis Thesis) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Helpers\ItemComparer.cs:line 24
+   at Plugin.Examination.Helpers.ThesisComparer..ctor(IEnumerable`1 list) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Helpers\ItemComparer.cs:line 18
+   at Plugin.Examination.ViewModels.BLLPlugin.LoadGridMainByListThesis(ObservableCollection`1& lstGridMain, List`1 lstInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 3263
+   at Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ListThesis_ViewModel.cs:line 371
+2024-10-19 10:48:09,913 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 - The given key was not present in the dictionary.
+2024-10-19 10:48:09,946 ERROR [1] Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.Helpers.ThesisComparer.Compare(Thesis x, Thesis y) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Helpers\ItemComparer.cs:line 56
+   at System.Linq.EnumerableSorter`2.CompareKeys(Int32 index1, Int32 index2)
+   at System.Linq.EnumerableSorter`1.QuickSort(Int32[] map, Int32 left, Int32 right)
+   at System.Linq.EnumerableSorter`1.Sort(TElement[] elements, Int32 count)
+   at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Plugin.Examination.ViewModels.BLLPlugin.LoadGridMainByListThesis(ObservableCollection`1& lstGridMain, List`1 lstInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 3263
+   at Plugin.Examination.ViewModels.ListThesis_ViewModel.<get_SubjectSelectionChangedCommand>b__44_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ListThesis_ViewModel.cs:line 371

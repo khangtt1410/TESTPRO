@@ -1,0 +1,252 @@
+﻿2024-09-19 20:47:57,907 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 20:47:57,948 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 20:55:09,040 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-19 20:55:21,977 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted - The component 'Plugin.Theses.Views.MainMultiLevel' does not have a resource identified by the URI '/INV.Framework.Theses.Library;component/views/mainmultilevel.xaml'.
+2024-09-19 20:55:21,996 ERROR [1] WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Plugin.Theses.Views.MainMultiLevel.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\Views\MainMultiLevel.xaml:line 1
+   at Plugin.Theses.Views.MainMultiLevel..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\Views\MainMultiLevel.xaml.cs:line 22
+   at Plugin.Theses.ConectionSdk.Process(IDictionary`2 key) in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\Plugin.Theses\ConnectionSDK.cs:line 40
+   at WindowMain.ViewModels.ViewModelMain.ClickCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 498
+2024-09-19 20:55:32,718 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-19 20:56:19,424 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-19 21:01:26,866 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-19 21:03:48,202 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 21:03:48,215 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 21:04:04,722 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 21:04:04,723 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 21:04:09,553 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 21:04:09,553 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 21:08:48,075 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 21:08:48,087 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 21:49:26,611 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 21:49:26,635 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 22:37:52,385 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 22:37:52,417 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 22:38:45,645 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 22:38:45,646 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 22:41:45,399 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 22:41:45,401 ERROR [1] Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.Assignments.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Helpers\Helpers.cs:line 14
+   at Plugin.Assignments.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\PhanCong_ViewModel.cs:line 130
+   at Plugin.Assignments.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\Views\PhanCong.xaml.cs:line 11
+   at Plugin.Assignments.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__51_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Assignments\ViewModels\ViewModelMainQB.cs:line 431
+2024-09-19 22:47:19,903 ERROR [1] Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 22:47:19,949 ERROR [1] Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.AssignTeacher.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\Helpers\Helpers.cs:line 14
+   at Plugin.AssignTeacher.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\ViewModels\PhanCong_ViewModel.cs:line 124
+   at Plugin.AssignTeacher.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\Views\PhanCong.xaml.cs:line 11
+   at Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\ViewModels\ViewModelMainQB.cs:line 475
+2024-09-19 22:48:19,394 ERROR [1] Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0 - Error setting value to 'SubjectCode' on 'HV.TOEntity.Subject'.
+2024-09-19 22:48:19,395 ERROR [1] Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0 -    at Newtonsoft.Json.Serialization.DynamicValueProvider.SetValue(Object target, Object value)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateList(IList list, JsonReader reader, JsonArrayContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Plugin.AssignTeacher.Helpers.Helpers.DeepCopy[T](T other) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\Helpers\Helpers.cs:line 14
+   at Plugin.AssignTeacher.ViewModels.PhanCong_ViewModel..ctor(PhanCong _viewMain, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\ViewModels\PhanCong_ViewModel.cs:line 124
+   at Plugin.AssignTeacher.Views.PhanCong..ctor(Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\Views\PhanCong.xaml.cs:line 11
+   at Plugin.AssignTeacher.ViewModels.ViewModelMainQB.<get_PhanCongCommand>b__52_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.AssignTeacher\ViewModels\ViewModelMainQB.cs:line 475

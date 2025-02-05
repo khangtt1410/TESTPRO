@@ -1,0 +1,58 @@
+﻿2024-10-12 00:01:09,931 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:01:09,960 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:01:36,015 ERROR [12] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:01:36,016 ERROR [12] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:03:07,664 ERROR [20] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:03:07,665 ERROR [20] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:03:43,929 ERROR [4] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:03:43,929 ERROR [4] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:04:14,281 ERROR [3] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:04:14,281 ERROR [3] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:04:34,507 ERROR [25] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:04:34,508 ERROR [25] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:06:29,979 ERROR [27] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Input string was not in a correct format.
+2024-10-12 00:06:29,980 ERROR [27] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Convert.ToInt32(String value)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 409
+2024-10-12 00:06:51,430 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-10-12 00:06:51,449 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion(List`1 lstDiemByLever, Int32 testIndex) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 648
+2024-10-12 00:06:53,297 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-10-12 00:06:53,297 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 1189
+2024-10-12 00:10:13,314 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-10-12 00:10:13,342 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadDataQuestion(List`1 lstDiemByLever, Int32 testIndex) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 658
+2024-10-12 00:10:14,315 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-10-12 00:10:14,316 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_ShowAllQuestionCommand>b__109_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 1199
+2024-10-12 00:10:54,965 ERROR [14] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - The given key was not present in the dictionary.
+2024-10-12 00:10:54,967 ERROR [14] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 424

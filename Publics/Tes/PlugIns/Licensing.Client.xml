@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Licensing.Client</name>
+    </assembly>
+    <members>
+        <member name="M:Licensing.BLLPlugin.GetValueFromFileConfig(System.String@,System.String)">
+            <summary>
+            Lấy giá trị value A của key B trong file config, nếu không có key thì không làm gì Output
+            </summary>
+            <param name="strOutputValue"></param>
+            <param name="strKey"></param>
+        </member>
+        <member name="P:Licensing.Client.LicenseStorageRegKey">
+            <summary>
+            RegistryKey chứa key lấy từ trong máy tính hiện tại 
+            </summary>
+        </member>
+        <member name="P:Licensing.Client.LicenseKey">
+            <summary>
+            LicenseKey lấy từ registry của máy tính
+            </summary>
+        </member>
+        <member name="P:Licensing.Client.HardwareIdHash">
+            <summary>
+            Mã máy đã hash string
+            </summary>
+        </member>
+        <member name="P:Licensing.Client.HardwareId">
+            <summary>
+            Mã máy tính
+            </summary>
+        </member>
+        <member name="M:Licensing.Client.#ctor(System.String)">
+            <summary>
+            Hàm mở rộng, thêm mã sản phẩm, các mã đọc vào từ file config
+            </summary>
+            <param name="configPath">Đường dẫn đến config</param>
+        </member>
+        <member name="M:Licensing.Client.CheckConnect(System.String)">
+            <summary>
+            Check connect to Web Link
+            </summary>
+            <param name="strLink"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Licensing.LicenseState">
+            <summary>
+            Các trạng thái của mã đăng ký
+            </summary>
+        </member>
+        <member name="F:Licensing.LicenseState.OK">
+            <summary>
+            Mã đăng ký hoàn toàn hợp lệ. Lập trình viên lập trình cho phép chương trình chạy khi mã đăng ký ở trạng thái này
+            </summary>
+        </member>
+        <member name="F:Licensing.LicenseState.InTrialPeriod">
+            <summary>
+            Mã đăng ký đang trong thời gian dùng thử
+            </summary>
+        </member>
+        <member name="F:Licensing.LicenseState.TrialExpired">
+            <summary>
+            Hết hạn dùng thử. Lập trình viên lập trình không cho phép người sử dụng dùng tiếp hoặc đưa ra đề nghị kéo dài ngày dùng thử khi mã đăng ký ở trạng thái này
+            </summary>
+        </member>
+        <member name="F:Licensing.LicenseState.ActivationNeeded">
+            <summary>
+            Mã đăng ký có tồn tại, có hợp lệ nhưng yêu cầu phải kích hoạt thủ công. Lập trình viên lập trình không cho phép người sử dụng tiếp tục dùng phần mềm, đưa ra yêu cầu kích hoạt khi mã đăng ký trạng thái này
+            </summary>
+        </member>
+        <member name="F:Licensing.LicenseState.ActivationExpired">
+            <summary>
+            Mã đăng ký hết hạn sử dụng, cần mua key mới để kích hoạt
+            </summary>
+        </member>
+        <member name="M:Licensing.Crc32.Init">
+            <summary>
+            Reset CRC
+            </summary>
+        </member>
+        <member name="T:Licensing.HVLicenseService.UpdateMessage">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.Major">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.Minor">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.Build">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.Revision">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.UpdateFileSize">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.ChangeLog">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.UpdateMessage.DownloadUrl">
+            <remarks/>
+        </member>
+        <member name="T:Licensing.HVLicenseService.ActivationMessage">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.ActivationMessage.StatusCode">
+            <remarks/>
+        </member>
+        <member name="P:Licensing.HVLicenseService.ActivationMessage.ActivationKey">
+            <remarks/>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CaThiEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ListThiSinh />
+  <IDCaThi>253</IDCaThi>
+  <TenCaThi>Ca 1</TenCaThi>
+  <ThoiGianBatDau>14/01/2025 09:32:47</ThoiGianBatDau>
+  <ThoiGianKetThuc>14/01/2025 09:47:47</ThoiGianKetThuc>
+  <IDToChucKyThi>195</IDToChucKyThi>
+  <TenPhongThi>Phòng 1</TenPhongThi>
+  <SoLuongHocSinh>11</SoLuongHocSinh>
+  <SoLuongMay>11</SoLuongMay>
+  <IDNguoiDung>637</IDNguoiDung>
+  <IDGiaoVienChamThi>637</IDGiaoVienChamThi>
+  <Status>0</Status>
+</CaThiEntity>

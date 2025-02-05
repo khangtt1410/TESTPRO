@@ -1,0 +1,189 @@
+﻿2024-09-22 13:44:54,614 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:44:54,676 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:54:36,872 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:54:36,873 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:54:42,147 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:54:42,150 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 13:55:00,882 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:55:00,883 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:55:06,731 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:55:06,731 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 13:58:20,027 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:58:20,028 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:58:29,465 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:58:29,465 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 13:58:40,586 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:58:40,587 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:58:48,525 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:58:48,526 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 13:59:01,289 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:59:01,289 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 13:59:05,002 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 13:59:05,002 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 14:00:16,769 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:00:16,769 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 14:00:21,276 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:00:21,276 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 14:01:00,233 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:01:00,234 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 737
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3168
+2024-09-22 14:01:13,181 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:01:13,181 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 14:06:19,213 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:06:19,241 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 14:07:57,515 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 14:07:57,516 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2152
+2024-09-22 15:05:13,285 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.GetQuestionCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 15:05:13,314 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.GetQuestionCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 738
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.GetQuestionCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 1903
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.GetQuestionCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs e) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2416
+2024-09-22 16:48:52,697 ERROR [16] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix - The process cannot access the file 'E:\OS\test_pro\de_thi\test_2\2\PHIEU SOI\PhieuSoi_138.pdf' because it is being used by another process.
+2024-09-22 16:48:52,737 ERROR [16] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode)
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4273
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix(List`1& lstAnswerPacket, Dictionary`2& dicHistoryMediaMix, ShowDataInDoc& exp) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 1004
+2024-09-22 18:18:49,761 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:18:49,796 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1525
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:22:47,190 ERROR [19] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:22:47,191 ERROR [19] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1525
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:23:54,083 ERROR [20] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:23:54,083 ERROR [20] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1525
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:25:16,053 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:25:16,080 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1525
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:29:03,009 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:29:03,025 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1525
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:46:56,069 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:46:56,100 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1618
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:48:16,415 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:48:16,416 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1618
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:56:05,234 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:56:05,264 ERROR [17] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1619
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 18:58:37,319 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-22 18:58:37,344 ERROR [5] Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.DrawPhieuTraLoi.VePhanTraLoiDung2025(ReportSection section, List`1 listDapAn, Color color) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\DrawPhieuTraLoi.cs:line 1621
+   at QuestionView.ExportAnswerSheeps..ctor(List`1 ListDapAnDung, Color color, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ExportAnswerSheeps.cs:line 79
+   at QuestionView.ShowDataInDoc.PrintAnswerTrueSheetPaper2025(AnswerPacket mAS, String path, Int32 series, String exportType) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 4266
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.ProccessMix() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 290
+2024-09-22 21:22:26,245 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-09-22 21:22:26,292 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted -    at QuestionView.Shares.ProcessTitleDoc.WriteTitleForDoc(String code, Dictionary`2 dicCongfig, Document doc, Boolean test) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\ProcessTitleDoc.cs:line 108
+   at QuestionView.Public.ShowDataInHtml.GetDocumentPreviewPageTest(List`1 lstGroup, List`1 lstQuestions, List`1 lstSubquestion, List`1 lstMix, Int32 code, List`1 lstDiems, Dictionary`2& dicCongfig, List`1 lstQuestionNotShowSub, List`1 lstQuestionShowSubY, String path, Int32 oder, Boolean checkPrintFile) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInHtml.cs:line 811
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 2104
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs e) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 2149
+2024-09-22 21:23:02,313 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-09-22 21:23:02,315 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted -    at QuestionView.Shares.ProcessTitleDoc.WriteTitleForDoc(String code, Dictionary`2 dicCongfig, Document doc, Boolean test) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\ProcessTitleDoc.cs:line 108
+   at QuestionView.Public.ShowDataInHtml.GetDocumentPreviewPageTest(List`1 lstGroup, List`1 lstQuestions, List`1 lstSubquestion, List`1 lstMix, Int32 code, List`1 lstDiems, Dictionary`2& dicCongfig, List`1 lstQuestionNotShowSub, List`1 lstQuestionShowSubY, String path, Int32 oder, Boolean checkPrintFile) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInHtml.cs:line 811
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 2104
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ShowAllQuestionCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs e) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 2149

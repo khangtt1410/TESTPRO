@@ -1,0 +1,17 @@
+﻿2024-09-01 00:29:58,471 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-01 00:29:58,518 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at HV.BankQuestions.DAL.Helper.ShowAnserTrueOfQues(Question ques, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\HV.BankQuestions.DAL\HV.BankQuestions.DAL\Helper.cs:line 165
+   at Plugin.UpdateQuestionFromFile.ViewModels.BLLPlugin.LoadGridMainByListQuestion(ObservableCollection`1& lstGridMain, List`1 lstQuestions, List`1 lstSubQuestions) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\BLLPlugin.cs:line 94
+   at Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_Method(OpenFileDialog ofd) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\ViewModelMainOffline.cs:line 2561
+   at Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\ViewModelMainOffline.cs:line 2489
+2024-09-01 21:42:46,508 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:42:50,897 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:42:59,247 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:43:06,111 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:43:19,123 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:43:51,616 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 21:46:56,044 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.
+2024-09-01 22:08:22,206 ERROR [1] Plugin.Examination.ViewModels.MatrixThesis_ViewModel.SetInfo - Object reference not set to an instance of an object.
+2024-09-01 22:31:09,834 ERROR [1] Plugin.Examination.ViewModels.DetailMarkThesis_ViewModel.<get_SaveCommand>b__91_0 - Input string was not in a correct format.

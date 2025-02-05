@@ -1,0 +1,6 @@
+﻿2024-11-06 09:08:45,569 ERROR [1] WindowMain.ViewModels.ViewModelMain.LogOut - The component 'Invico.MessageBox.InvicoMessageBox' does not have a resource identified by the URI '/INV.Framework.MessageBox;component/invicomessagebox.xaml'.
+2024-11-06 09:08:45,591 ERROR [1] WindowMain.ViewModels.ViewModelMain.LogOut -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at Invico.MessageBox.InvicoMessageBox.InitializeComponent() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml:line 1
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 16
+   at Invico.MessageBox.InvicoMessageBox.ShowConfirm(String text) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 135
+   at WindowMain.ViewModels.ViewModelMain.LogOut(String strUser) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 1236

@@ -1,0 +1,172 @@
+﻿2024-12-30 14:16:35,193 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:16:48,904 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:16:49,155 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:16:55,690 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:17:00,868 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:17:42,796 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin - Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+2024-12-30 14:17:42,803 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin -    at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 102
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1222
+2024-12-30 14:17:42,826 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The calling thread must be STA, because many UI components require this.
+2024-12-30 14:17:42,836 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at System.Windows.Controls.Control..ctor()
+   at System.Windows.Window..ctor()
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 15
+   at Invico.MessageBox.InvicoMessageBox.ShowNotify(String text, String strToolTipImage) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 84
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ShowException(Exception ex) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2461
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1228
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1434
+2024-12-30 14:18:32,052 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:19:27,645 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin - Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+2024-12-30 14:19:27,645 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin -    at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 102
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1222
+2024-12-30 14:19:27,661 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The calling thread must be STA, because many UI components require this.
+2024-12-30 14:19:27,661 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at System.Windows.Controls.Control..ctor()
+   at System.Windows.Window..ctor()
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 15
+   at Invico.MessageBox.InvicoMessageBox.ShowNotify(String text, String strToolTipImage) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 84
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ShowException(Exception ex) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2461
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1228
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1434
+2024-12-30 14:19:45,212 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:20:09,172 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin - Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+2024-12-30 14:20:09,172 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin -    at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 102
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1222
+2024-12-30 14:20:09,182 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The calling thread must be STA, because many UI components require this.
+2024-12-30 14:20:09,182 ERROR [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at System.Windows.Controls.Control..ctor()
+   at System.Windows.Window..ctor()
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 15
+   at Invico.MessageBox.InvicoMessageBox.ShowNotify(String text, String strToolTipImage) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 84
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ShowException(Exception ex) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2461
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1228
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1434
+2024-12-30 14:20:18,629 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:20:38,795 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:21:26,245 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:21:37,627 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:24:14,203 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:27:46,402 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:41:28,904 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:41:37,825 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:41:45,610 INFO [10] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:44:43,712 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 14:44:52,691 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-30 14:44:52,701 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-30 14:45:05,010 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:45:06,241 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:46:07,268 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:47:08,546 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:48:09,713 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:49:10,957 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:49:12,960 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-30 14:49:13,339 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:49:22,576 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:49:41,855 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:50:00,152 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:50:13,389 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:50:18,415 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:50:37,651 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:50:55,950 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:51:15,204 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:51:15,420 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:51:33,442 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:51:52,698 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:52:11,992 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:52:17,199 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:52:30,199 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:52:49,436 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:53:07,695 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:53:18,960 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:53:26,972 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:53:45,237 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:54:04,468 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:54:20,703 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:54:22,705 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:54:41,999 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:55:00,311 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:55:19,578 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:55:22,804 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:55:37,875 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:55:57,126 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:56:16,429 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:56:24,637 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:56:34,662 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:56:53,935 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:57:12,170 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:57:26,405 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:57:31,417 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:57:49,646 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:58:08,875 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:58:27,100 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:58:28,313 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:58:46,360 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:59:04,613 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:59:23,896 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 14:59:30,108 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 14:59:42,158 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 15:00:01,421 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 15:00:20,701 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 15:00:31,941 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 15:00:38,969 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 15:00:58,191 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-30 15:01:12,448 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-30 15:01:12,669 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 3
+2024-12-30 15:04:02,061 ERROR [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The operation is not allowed on non-connected sockets.
+2024-12-30 15:04:02,062 ERROR [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Net.Sockets.TcpClient.GetStream()
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 97
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.SubmitExamResponse(BaiLamEntity baiLamEntity, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1619
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1466
+2024-12-30 15:04:02,076 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 15:04:02,077 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 15:04:02,077 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-30 15:04:02,077 INFO [11] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 7
+2024-12-30 15:20:25,210 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 15:20:32,372 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-30 15:20:32,413 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-30 15:21:54,291 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 15:22:01,201 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-30 15:22:01,245 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-30 15:22:49,957 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 15:22:58,556 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-30 15:22:58,595 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-30 15:28:48,465 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 15:29:03,363 ERROR [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin - Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+2024-12-30 15:29:03,372 ERROR [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin -    at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 102
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1222
+2024-12-30 15:29:03,445 ERROR [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The calling thread must be STA, because many UI components require this.
+2024-12-30 15:29:03,451 ERROR [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at System.Windows.Controls.Control..ctor()
+   at System.Windows.Window..ctor()
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 15
+   at Invico.MessageBox.InvicoMessageBox.ShowNotify(String text, String strToolTipImage) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 84
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ShowException(Exception ex) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2461
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1228
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1434
+2024-12-30 15:29:13,376 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-30 15:29:44,625 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-30 15:29:44,687 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-

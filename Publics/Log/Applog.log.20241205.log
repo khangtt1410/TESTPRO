@@ -1,0 +1,2 @@
+﻿2024-12-05 08:40:26,356 ERROR [1] PluginLan.ExamManagement.ViewModels.ListTest_ViewModel.<get_OpenMatrixWindowCommand>b__32_0 - The component 'Plugin.Examination.Views.Matrix' does not have a resource identified by the URI '/Plugin.Examination;component/views/matrix.xaml'.
+2024-12-05 09:26:52,478 ERROR [1] PluginLan.ExamManagement.ViewModels.ListTest_ViewModel.<get_OpenMatrixWindowCommand>b__32_0 - The component 'Plugin.Examination.Views.Matrix' does not have a resource identified by the URI '/Plugin.Examination;component/views/matrix.xaml'.

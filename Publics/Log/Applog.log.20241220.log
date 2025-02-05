@@ -1,0 +1,140 @@
+﻿2024-12-20 08:32:16,616 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 08:32:16,646 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2615
+2024-12-20 08:32:32,565 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 08:32:32,566 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2615
+2024-12-20 08:40:47,752 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 08:40:58,813 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-20 08:40:58,824 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-20 08:41:13,644 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 08:41:15,737 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-20 08:41:17,167 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 08:41:40,377 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 08:41:58,640 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 09:47:23,224 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted - The given key was not present in the dictionary.
+2024-12-20 09:47:23,257 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.PackExamForLan_ViewModel..ctor(PackExamForLan _viewMain, Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExamForLan_ViewModel.cs:line 172
+   at Plugin.Examination.Views.PackExamForLan..ctor(Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\PackExamForLan.xaml.cs:line 10
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_Method() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 1129
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 944
+2024-12-20 09:48:00,080 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted - The given key was not present in the dictionary.
+2024-12-20 09:48:00,081 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.PackExamForLan_ViewModel..ctor(PackExamForLan _viewMain, Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExamForLan_ViewModel.cs:line 172
+   at Plugin.Examination.Views.PackExamForLan..ctor(Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\PackExamForLan.xaml.cs:line 10
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_Method() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 1129
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 944
+2024-12-20 09:51:01,166 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted - The given key was not present in the dictionary.
+2024-12-20 09:51:01,191 ERROR [1] Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.PackExamForLan_ViewModel..ctor(PackExamForLan _viewMain, Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExamForLan_ViewModel.cs:line 172
+   at Plugin.Examination.Views.PackExamForLan..ctor(Object objInput) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\PackExamForLan.xaml.cs:line 10
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_Method() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 1129
+   at Plugin.Examination.ViewModels.CreateExamFromFile_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\CreateExamFromFile_ViewModel.cs:line 944
+2024-12-20 09:58:44,143 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 09:58:44,167 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 10:26:55,363 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 10:28:06,506 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-20 10:28:06,514 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-20 10:28:19,217 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:28:20,785 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-20 10:28:22,223 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 10:28:45,341 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:29:03,577 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:29:23,016 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:29:24,215 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 10:29:37,216 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:29:56,442 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:30:14,695 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:30:25,963 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 10:30:32,959 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:30:52,213 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:31:11,451 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:31:27,702 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 10:31:29,701 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:31:48,937 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 10:35:44,900 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 10:35:44,913 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 10:37:49,402 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 10:37:49,402 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 10:38:15,004 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 10:38:15,007 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 10:38:41,703 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 10:38:41,707 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 10:46:55,892 INFO [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 10:47:18,096 INFO [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 10:47:29,432 INFO [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 10:48:55,369 INFO [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 10:49:02,212 ERROR [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin - Unable to write data to the transport connection: An established connection was aborted by the software in your host machine.
+2024-12-20 10:49:02,213 ERROR [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin -    at System.Net.Sockets.NetworkStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 102
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1222
+2024-12-20 10:49:02,233 ERROR [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The calling thread must be STA, because many UI components require this.
+2024-12-20 10:49:02,234 ERROR [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Windows.Input.InputManager..ctor()
+   at System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   at System.Windows.Input.KeyboardNavigation..ctor()
+   at System.Windows.FrameworkElement.FrameworkServices..ctor()
+   at System.Windows.FrameworkElement.EnsureFrameworkServices()
+   at System.Windows.FrameworkElement..ctor()
+   at System.Windows.Controls.Control..ctor()
+   at System.Windows.Window..ctor()
+   at Invico.MessageBox.InvicoMessageBox..ctor() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 15
+   at Invico.MessageBox.InvicoMessageBox.ShowNotify(String text, String strToolTipImage) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\CustomMessageBox\InvicoMessageBox.xaml.cs:line 84
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ShowException(Exception ex) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2459
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.CheckLogin(ObservableCollection`1 examinees, ToChucKyThiEntity toChucKyThi, String userName, String passWord, String computerName, String ipAddress, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1228
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1434
+2024-12-20 10:49:25,690 INFO [22] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 11:05:18,523 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 11:05:24,297 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-20 11:05:24,298 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-20 11:05:33,142 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 11:05:34,366 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 11:06:05,594 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-20 11:06:05,876 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 11:06:07,090 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 11:06:26,324 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 11:06:38,582 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 11:06:44,630 INFO [4] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 14:24:02,585 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 - The component 'INV.Framework.LoadingPopup.View.PopupLoading' does not have a resource identified by the URI '/INV.Framework.LoadingPopup;component/view/popuploading.xaml'.
+2024-12-20 14:24:02,616 ERROR [1] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0 -    at System.Windows.Application.LoadComponent(Object component, Uri resourceLocator)
+   at INV.Framework.LoadingPopup.View.PopupLoading.InitializeComponent() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml:line 1
+   at INV.Framework.LoadingPopup.View.PopupLoading..ctor() in D:\PROJECT\EDU-Lantest\TestPro-Client\Clients\INV.Framework.LoadingPopup\View\PopupLoading.xaml.cs:line 21
+   at PluginLan.SupervisionTest.ViewModels.BLLPlugin.ShowPopupLoading(PopupLoading& LoadingUC, Grid& gridPopup) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\BLLPlugin.cs:line 458
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.<get_TurnSelectionChangedCommand>b__156_0(Object p) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 2641
+2024-12-20 14:26:16,047 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-20 14:26:22,046 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-20 14:26:22,056 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 118/key-
+2024-12-20 14:26:32,403 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 14:26:34,199 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-20 14:26:35,546 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 14:26:58,656 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 14:27:17,017 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 14:27:36,497 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-20 14:27:37,914 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-20 14:27:49,533 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-20 14:27:49,959 INFO [3] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 3

@@ -1,0 +1,4 @@
+﻿2024-10-07 22:04:33,773 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-10-07 22:04:51,245 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-10-07 22:05:05,703 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-10-07 22:06:27,484 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.

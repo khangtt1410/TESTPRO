@@ -1,0 +1,58 @@
+﻿2024-09-25 18:47:40,466 ERROR [1] Plugin.Examination.ViewModels.Matrix_ViewModel.LoadData - Length cannot be less than zero.
+Parameter name: length
+2024-09-25 18:47:40,510 ERROR [1] Plugin.Examination.ViewModels.Matrix_ViewModel.LoadData -    at System.String.Substring(Int32 startIndex, Int32 length)
+   at Plugin.Examination.ViewModels.Matrix_ViewModel.LoadData(List`1 lstMatrix, Boolean showAll) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\Matrix_ViewModel.cs:line 432
+2024-09-25 19:58:04,324 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 19:58:04,467 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 492
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 463
+2024-09-25 19:58:13,298 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 19:58:13,299 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 492
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 463
+2024-09-25 20:44:28,738 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:44:28,764 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 492
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 463
+2024-09-25 20:47:53,195 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:47:53,225 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 492
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 463
+2024-09-25 20:49:36,527 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:50:12,862 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 492
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ShowDetailCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 463
+2024-09-25 20:51:29,867 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:51:29,896 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 598
+2024-09-25 20:51:32,042 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 - The given key was not present in the dictionary.
+2024-09-25 20:51:32,044 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 1276
+2024-09-25 20:52:14,522 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:52:14,523 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 598
+2024-09-25 20:52:22,327 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 - The given key was not present in the dictionary.
+2024-09-25 20:52:22,327 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExamDetail_ViewModel.cs:line 1276
+2024-09-25 20:53:04,968 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-25 20:53:04,968 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.LoadData()
+2024-09-25 20:53:06,980 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 - The given key was not present in the dictionary.
+2024-09-25 20:53:06,980 ERROR [1] Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0 -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExamDetail_ViewModel.<get_LoadedCommand>b__85_0(Object p)

@@ -1,0 +1,8 @@
+﻿2024-11-07 14:08:07,491 ERROR [1] WindowMain.ViewModels.ViewModelMain.LoadData - Unable to load one or more of the requested types. Retrieve the LoaderExceptions property for more information.
+2024-11-07 14:08:07,506 ERROR [1] WindowMain.ViewModels.ViewModelMain.LoadData -    at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeModule.GetTypes()
+   at System.Reflection.Assembly.GetTypes()
+   at HostViewer.HostService.LoadPlugIns(String filePath) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\HostService.cs:line 76
+   at HostViewer.HostService.FindPlugIns(String folderPath) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\HostService.cs:line 60
+   at WindowMain.ViewModels.BLLPlugin.LoadPlugins(Int32 intSoftware, List`1 lstRuleOfUser, List`1& lstMenuItems, Boolean checkServer, String forder) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\BLLPlugin.cs:line 710
+   at WindowMain.ViewModels.ViewModelMain.LoadData() in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\WindowMain\ViewModels\ViewModelMain.cs:line 1103

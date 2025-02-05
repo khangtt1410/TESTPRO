@@ -1,0 +1,1 @@
+{"version":"2.0.0.2","intestDownloadUrl":"http://localhost:5003/intest/version.xml","updatedDate":"10/12/2024","lantestDownloadUrl":"http://localhost:5003/lantest/version.xml"}

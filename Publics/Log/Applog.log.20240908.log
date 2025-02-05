@@ -1,0 +1,53 @@
+﻿2024-09-08 08:05:41,172 ERROR [16] Plugin.Examination.ViewModels.ExportExamFromFile_ViewModel.GetListAnswerPacketFromListMix - The process cannot access the file 'E:\OS\test_pro\de_thi\test_2\De_3\de 001.doc' because it is being used by another process.
+2024-09-08 08:05:41,244 ERROR [16] Plugin.Examination.ViewModels.ExportExamFromFile_ViewModel.GetListAnswerPacketFromListMix -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at Aspose.Words.Document.(Stream , String , SaveOptions )
+   at Aspose.Words.Document.Save(String fileName)
+   at QuestionView.ShowDataInDoc.PrintTestFileToDoc(Dictionary`2& dicMediaFileName, List`1 lstGroup, List`1 lstQuestions, List`1 lstSubquestion, List`1 lstList, Int32 code, List`1 lstDiems, Dictionary`2& dicCongfig, List`1 lstQuestionNotShowSub, List`1 lstQuestionShowSubY, String path, Int32 oder, Boolean checkPrintFile) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInDoc.cs:line 2840
+   at Plugin.Examination.ViewModels.ExportExamFromFile_ViewModel.GetListAnswerPacketFromListMix(List`1& lstAnswerPacket, Dictionary`2& dicHistoryMediaMix, ShowDataInDoc& exp) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExamFromFile_ViewModel.cs:line 1832
+2024-09-08 14:23:16,060 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0 - Object reference not set to an instance of an object.
+2024-09-08 14:23:16,116 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0 -    at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2954
+2024-09-08 15:20:27,214 ERROR [1] Plugin.Examination.ViewModels.ChoosingExportFormat_ViewModel.<get_BackCommand>b__5_0 - Object reference not set to an instance of an object.
+2024-09-08 15:56:53,837 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted - The given key was not present in the dictionary.
+2024-09-08 15:56:53,879 ERROR [1] Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel..ctor(ExportExam _viewMain, DELEGATE_VOID_AFTER_CLOSE _delegateVoid, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 167
+   at Plugin.Examination.Views.ExportExam..ctor(DELEGATE_VOID_AFTER_CLOSE _delegateVoid, Dictionary`2 dicData) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ExportExam.xaml.cs:line 23
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1049
+   at Plugin.Examination.ViewModels.PackExam_ViewModel.NextCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\PackExam_ViewModel.cs:line 1067
+2024-09-08 16:01:32,062 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:01:32,100 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 216
+2024-09-08 16:07:57,397 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:07:57,447 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 220
+2024-09-08 16:15:55,172 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:15:55,235 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 225
+2024-09-08 16:18:55,189 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:18:55,227 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 225
+2024-09-08 16:19:22,651 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:19:22,652 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 225
+2024-09-08 16:20:00,691 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl - The given key was not present in the dictionary.
+2024-09-08 16:20:00,692 ERROR [1] Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ExcuteFromOtherUserControl(Dictionary`2& dic) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 225
+2024-09-08 16:48:32,852 ERROR [11] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix - Sequence contains no elements
+2024-09-08 16:48:32,921 ERROR [11] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix -    at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix(List`1& lstAnswerPacket, Dictionary`2& dicHistoryMediaMix, ShowDataInDoc& exp) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 984
+2024-09-08 16:50:15,877 ERROR [19] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix - Sequence contains no elements
+2024-09-08 16:50:15,913 ERROR [19] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix -    at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix(List`1& lstAnswerPacket, Dictionary`2& dicHistoryMediaMix, ShowDataInDoc& exp) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 984
+2024-09-08 16:51:05,966 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix - Sequence contains no elements
+2024-09-08 16:51:05,967 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix -    at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.GetListAnswerPacketFromListMix(List`1& lstAnswerPacket, Dictionary`2& dicHistoryMediaMix, ShowDataInDoc& exp) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 984
+2024-09-08 18:25:52,888 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-08 18:25:52,944 ERROR [17] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4087
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 737

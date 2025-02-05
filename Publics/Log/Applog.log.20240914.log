@@ -1,0 +1,57 @@
+﻿2024-09-14 10:43:02,561 ERROR [14] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Object reference not set to an instance of an object.
+2024-09-14 10:43:02,600 ERROR [14] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass34_0.<CreateDataClassic2025>b__1(TN z) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1500
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass34_0.<CreateDataClassic2025>b__0(AnswerPacket x) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1500
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, String color, String groupName) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1500
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763
+2024-09-14 10:50:17,538 ERROR [15] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Object reference not set to an instance of an object.
+2024-09-14 10:50:17,577 ERROR [15] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass140_0.<ExportPhieuSoiDapAnExcel2025>b__5(TN z) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass140_0.<ExportPhieuSoiDapAnExcel2025>b__4(AnswerPacket x) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763
+2024-09-14 10:51:57,894 ERROR [11] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Object reference not set to an instance of an object.
+2024-09-14 10:51:57,895 ERROR [11] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass140_0.<ExportPhieuSoiDapAnExcel2025>b__5(TN z) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   at System.Linq.Enumerable.Count[TSource](IEnumerable`1 source)
+   at Plugin.Examination.ViewModels.BLLPlugin.<>c__DisplayClass140_0.<ExportPhieuSoiDapAnExcel2025>b__4(AnswerPacket x) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+   at System.Linq.Enumerable.Max(IEnumerable`1 source)
+   at System.Linq.Enumerable.Max[TSource](IEnumerable`1 source, Func`2 selector)
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4288
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763
+2024-09-14 13:51:24,646 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0 - Object reference not set to an instance of an object.
+2024-09-14 13:51:24,722 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0 -    at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_LevelSelectionChangedCommand>b__128_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2954
+2024-09-14 15:07:58,177 ERROR [14] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-14 15:07:58,230 ERROR [14] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, List`1 colorList, List`1 _lstGroups) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1590
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, List`1 _lstGroups, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4417
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763
+2024-09-14 15:15:35,073 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-14 15:15:35,116 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, List`1 colorList, List`1 _lstGroups) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1675
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, List`1 _lstGroups, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4399
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763
+2024-09-14 15:16:47,996 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest - Specified argument was out of the range of valid values.
+Parameter name: Start cell Address must be less or equal to End cell address
+2024-09-14 15:16:47,997 ERROR [4] Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest -    at OfficeOpenXml.ExcelAddressBase.Validate()
+   at OfficeOpenXml.ExcelAddressBase.SetAddress(String address)
+   at OfficeOpenXml.ExcelRange.get_Item(String Address)
+   at Plugin.Examination.ViewModels.BLLPlugin.CreateDataClassic2025(ExcelWorksheet workSheet, Int32& rowIndex, Int32& colIndex, List`1 lstAnswerPacket, Int32 intSumQuestion, List`1 colorList, List`1 _lstGroups) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 1675
+   at Plugin.Examination.ViewModels.BLLPlugin.ExportPhieuSoiDapAnExcel2025(ObservableCollection`1 lstGridMain, List`1 lstAnswerPacket, String strPath, List`1 lstQuestions, List`1 lstSubQuestions, List`1 _lstGroups, Boolean check_ResetIndexGroup) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\BLLPlugin.cs:line 4399
+   at Plugin.Examination.ViewModels.ExportExam_ViewModel.ProccessExportTest() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ExportExam_ViewModel.cs:line 763

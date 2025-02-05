@@ -1,0 +1,71 @@
+﻿2024-12-26 09:20:13,173 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-26 09:20:19,581 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-26 09:20:19,589 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-26 09:20:25,646 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:20:26,857 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:21:27,946 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:22:29,067 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:23:30,168 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:24:31,222 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:24:48,237 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-26 09:24:48,575 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:24:49,785 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:25:02,016 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:25:21,227 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:25:33,443 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:25:40,465 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:25:58,683 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:26:17,930 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:26:35,151 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:26:37,146 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:26:55,387 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:27:14,627 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:27:34,032 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:27:37,251 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:27:48,257 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:28:06,516 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:28:25,797 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:28:39,227 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:28:44,010 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:29:03,241 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:29:21,545 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:29:40,785 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:29:41,004 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:29:59,025 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:30:18,237 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:30:37,459 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:30:42,676 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:30:55,714 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:31:15,146 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:31:29,387 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:31:44,643 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:31:47,631 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:32:06,863 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:32:25,127 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:32:44,365 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:32:46,578 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:33:03,585 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:33:21,817 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:33:41,045 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:33:48,256 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:33:59,275 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:34:17,492 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:34:36,736 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:34:49,996 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:34:54,990 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:35:14,225 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:35:32,459 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:35:51,659 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:35:51,864 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:36:10,901 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:36:29,114 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-26 09:36:47,362 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-26 09:36:47,588 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 3
+2024-12-26 09:37:47,488 ERROR [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - The operation is not allowed on non-connected sockets.
+2024-12-26 09:37:47,489 ERROR [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer -    at System.Net.Sockets.TcpClient.GetStream()
+   at INV.Framework.LanClientServer.SocketServer.ResponseStr(TcpClient client, String strToSend) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestProStudentWPF\Socket\SocketServer.cs:line 97
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.SubmitExamResponse(BaiLamEntity baiLamEntity, TcpClient client) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1617
+   at PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer(TcpClient client, String strRevicedInfo, Byte[] byteArrayReceive) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SupervisionTest\ViewModels\ViewModelMainOnline.cs:line 1466
+2024-12-26 09:37:47,507 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:37:54,640 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-26 09:38:55,757 INFO [8] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5

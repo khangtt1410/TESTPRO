@@ -1,0 +1,4 @@
+﻿2025-01-22 09:59:11,879 ERROR [1] HostViewer.HostService.FindPlugIns - Loi load dll: D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Publics\Tes\PlugIns\
+2025-01-22 09:59:41,381 ERROR [1] HostViewer.HostService.FindPlugIns - Loi load dll: D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Publics\Tes\PlugIns\Client\
+2025-01-22 10:01:53,592 ERROR [1] HostViewer.HostService.FindPlugIns - Loi load dll: D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Publics\Tes\PlugIns\
+2025-01-22 10:02:06,997 ERROR [1] HostViewer.HostService.FindPlugIns - Loi load dll: D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Publics\Tes\PlugIns\Client\

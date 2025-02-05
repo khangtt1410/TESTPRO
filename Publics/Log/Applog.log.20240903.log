@@ -1,0 +1,96 @@
+﻿2024-09-03 12:17:43,219 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:17:43,279 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 12:17:47,660 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:17:47,660 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 12:17:53,373 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:17:53,378 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0 -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.CheckCountQuestionByMatrix(Int32 thesisId, String str, Int32 lever, String type, List`1 quesedit, Int32 idGroupSelected) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 735
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.<get_DeleteCommand>b__134_0(Object p) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 3084
+2024-09-03 12:18:01,994 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:18:01,994 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 12:18:07,832 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:18:07,833 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 12:22:06,874 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:22:06,875 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 12:22:13,280 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 12:22:13,280 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2101
+2024-09-03 13:28:59,067 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:28:59,103 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:29:05,672 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:29:05,672 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:38:29,275 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:38:29,275 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:40:18,705 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:40:18,706 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:40:43,093 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:40:43,094 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:42:13,619 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:42:13,620 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:45:44,685 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:45:44,685 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:57:25,129 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:57:25,160 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:57:34,551 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:57:34,551 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:57:39,288 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:57:39,289 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:57:44,218 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:57:44,219 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125
+2024-09-03 13:58:05,130 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-09-03 13:58:05,130 ERROR [1] Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Plugin.Examination.ViewModels.GetQuestionRandom_ViewModel.ShowQuestionContent(List`1 lstQuestions, List`1 lstSubQuestions, List`1 lstAnswers) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\GetQuestionRandom_ViewModel.cs:line 2125

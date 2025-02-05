@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BaiLamEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ListDetail />
+  <MaBaiLam>0</MaBaiLam>
+  <MaThiSinh>1326</MaThiSinh>
+  <ThoiGianBatDau>20/12/2024 10:28:20</ThoiGianBatDau>
+  <ThoiGianKetThuc>20/12/2024 10:28:22</ThoiGianKetThuc>
+  <TongDiem>q9HoGVDWPg/smOymvzTnXp7ZWcnnSJ+eoUmCQkopVmg=</TongDiem>
+  <DiemTL>q9HoGVDWPg/smOymvzTnXp7ZWcnnSJ+eoUmCQkopVmg=</DiemTL>
+  <DiemTN>q9HoGVDWPg/smOymvzTnXp7ZWcnnSJ+eoUmCQkopVmg=</DiemTN>
+  <MaDe>1326</MaDe>
+  <TrangThaiChamDiem />
+</BaiLamEntity>

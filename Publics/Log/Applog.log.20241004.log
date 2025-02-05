@@ -1,0 +1,5 @@
+﻿2024-10-04 22:37:06,373 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ExportCommand_Method - The given key was not present in the dictionary.
+2024-10-04 22:37:06,409 ERROR [1] Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ExportCommand_Method -    at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at Plugin.Examination.ViewModels.ChoosingExportFormat_ViewModel..ctor(ChoosingExportFormat _viewMain, Object dicInput) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\ChoosingExportFormat_ViewModel.cs:line 28
+   at Plugin.Examination.Views.ChoosingExportFormat..ctor(Object objInput) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\Views\ChoosingExportFormat.xaml.cs:line 28
+   at Plugin.Examination.ViewModels.TestManagementOnline_ViewModel.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.Examination\ViewModels\TestManagementOnline_ViewModel.cs:line 432

@@ -1,0 +1,52 @@
+﻿2024-12-19 08:33:27,863 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:34:18,500 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:35:39,179 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 08:35:41,640 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 08:35:58,291 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:36:01,635 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:36:11,773 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 08:36:17,942 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData - Index was outside the bounds of the array.
+2024-12-19 08:36:17,943 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData -    at PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData(ToChucKyThiEntity& mToChucThiEntity) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SetupExam\ViewModels\UpdateExamOrganization_ViewModel.cs:line 203
+2024-12-19 08:36:27,639 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData - Index was outside the bounds of the array.
+2024-12-19 08:36:27,640 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData -    at PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData(ToChucKyThiEntity& mToChucThiEntity) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SetupExam\ViewModels\UpdateExamOrganization_ViewModel.cs:line 203
+2024-12-19 08:36:56,422 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData - Index was outside the bounds of the array.
+2024-12-19 08:36:56,422 ERROR [1] PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData -    at PluginLan.SetupExam.ViewModels.UpdateExamOrganization_ViewModel.LoadOldData(ToChucKyThiEntity& mToChucThiEntity) in D:\InTest_OutSource\OutSource_InTest\LanTest\TestPro-Client\Clients\PluginLan.SetupExam\ViewModels\UpdateExamOrganization_ViewModel.cs:line 203
+2024-12-19 08:51:26,019 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:52:30,317 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 08:52:39,563 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 09:06:37,380 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 09:08:31,982 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 09:08:41,274 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 09:13:45,830 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 09:14:35,858 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 09:15:00,996 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Index was outside the bounds of the array.
+2024-12-19 09:16:43,238 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 09:18:36,914 ERROR [1] PluginLan.SetupExam.ViewModels.ExaminationTurn_ViewModel.EditOldExam - Error converting value 0 to type 'System.Collections.IDictionary'. Path '', line 1, position 1.
+2024-12-19 14:49:46,751 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-19 14:49:49,011 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-19 14:49:49,021 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-19 14:49:58,105 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 14:49:59,390 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 14:50:17,830 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-19 14:50:19,179 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 14:50:25,429 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 14:50:30,937 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-19 14:50:31,153 INFO [9] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 3
+2024-12-19 15:07:25,334 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 0
+2024-12-19 15:07:26,333 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 1
+2024-12-19 15:07:26,347 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.TestInfoToStudentResponse - Da vao TestInfoToStudentResponse: userID- 637/key-
+2024-12-19 15:07:29,984 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:07:31,212 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:08:32,340 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:09:33,417 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:10:34,598 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:11:35,710 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:12:02,780 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-19 15:12:03,103 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:12:11,306 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:12:29,572 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:12:37,804 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 5
+2024-12-19 15:12:48,828 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:13:07,166 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 2
+2024-12-19 15:13:16,379 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 6
+2024-12-19 15:13:16,411 INFO [7] PluginLan.SupervisionTest.ViewModels.ViewModelMainOnline.ClientServer - Da vao command: 3

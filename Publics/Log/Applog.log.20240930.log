@@ -1,0 +1,6 @@
+﻿2024-09-30 20:24:05,509 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-30 20:24:21,846 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-30 20:26:34,552 ERROR [1] Plugin.Managementunits.ViewModels.ViewModelClassOnline.<get_AddByHandCommand>b__78_0 - Error setting value to 'Address' on 'HV.TOEntity.ManagementUnit'.
+2024-09-30 20:30:44,797 ERROR [1] Plugin.Managementunits.ViewModels.UpdateClass_ViewModel.LoadForm - Object reference not set to an instance of an object.
+2024-09-30 20:50:17,682 ERROR [1] Plugin.Managementunits.ViewModels.UpdateClass_ViewModel.LoadForm - Object reference not set to an instance of an object.
+2024-09-30 20:54:22,991 ERROR [1] Plugin.Managementunits.ViewModels.UpdateClass_ViewModel.LoadForm - Object reference not set to an instance of an object.

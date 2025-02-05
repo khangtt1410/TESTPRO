@@ -1,0 +1,216 @@
+﻿2024-08-31 12:55:25,602 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-08-31 12:55:25,659 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at QuestionView.Shares.StandardizedData.GetStandardizedImageRTF(String strRTF) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 30
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 797
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 13:13:54,558 ERROR [1] Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 13:13:54,619 ERROR [1] Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataInHtml.GetDocumentXuatFileKhongCauTruc(Document& docOutput, List`1 lstQuestions, Dictionary`2 dicCongfig, Boolean decompress) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInHtml.cs:line 5244
+   at Plugin.InspectQuestion.ViewModels.BLLAposeWord.ShowWebviewCauHoiKhongCauTruc(WebBrowser& webView, List`1 lstQuestions, Dictionary`2 dicCongfig) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\BLLAposeWord.cs:line 57
+   at Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ExportFile_ViewModel.cs:line 111
+2024-08-31 13:15:17,278 ERROR [1] Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 13:15:17,278 ERROR [1] Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataInHtml.GetDocumentXuatFileKhongCauTruc(Document& docOutput, List`1 lstQuestions, Dictionary`2 dicCongfig, Boolean decompress) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataInHtml.cs:line 5244
+   at Plugin.InspectQuestion.ViewModels.BLLAposeWord.ShowWebviewCauHoiKhongCauTruc(WebBrowser& webView, List`1 lstQuestions, Dictionary`2 dicCongfig) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\BLLAposeWord.cs:line 57
+   at Plugin.InspectQuestion.ViewModels.ExportFile_ViewModel.LoadData() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ExportFile_ViewModel.cs:line 111
+2024-08-31 14:38:35,388 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-08-31 14:38:35,461 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at QuestionView.Shares.StandardizedData.GetStandardizedImageRTF(String strRTF) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 30
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 797
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:45:20,267 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-08-31 14:45:20,326 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at QuestionView.Shares.StandardizedData.GetStandardizedImageRTF(String strRTF) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 30
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 848
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:45:38,177 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Object reference not set to an instance of an object.
+2024-08-31 14:45:38,178 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at QuestionView.Shares.StandardizedData.GetStandardizedImageRTF(String strRTF) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 30
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 848
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:47:36,777 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 14:47:36,824 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 842
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:52:23,174 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 14:52:23,218 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 843
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:52:29,292 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 14:52:29,292 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 843
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:52:52,908 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 14:52:52,908 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 843
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:55:10,292 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 14:55:10,354 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 845
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:55:38,899 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 14:55:38,900 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 845
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:56:53,926 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 14:56:53,927 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 845
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:57:37,607 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 14:57:37,608 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 845
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainDaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainDaDuyet.cs:line 1157
+2024-08-31 14:59:05,899 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 14:59:05,919 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 791
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 15:01:49,681 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 15:01:49,684 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 791
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 15:03:39,971 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 15:03:39,973 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 791
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 15:04:03,279 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 15:04:03,281 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 791
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 15:04:09,976 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted - File format is not valid.
+2024-08-31 15:04:09,977 ERROR [1] Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted -    at System.Windows.Forms.RichTextBox.StreamIn(Stream data, Int32 flags)
+   at System.Windows.Forms.RichTextBox.StreamIn(String str, Int32 flags)
+   at System.Windows.Forms.RichTextBox.set_Rtf(String value)
+   at QuestionView.Shares.StandardizedData.GetStandardizedContent(String rtf) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Shares\StandardizedData.cs:line 152
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 791
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1281
+   at Plugin.InspectQuestion.ViewModels.ViewModelMainChuaDuyet.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\ViewModelMainChuaDuyet.cs:line 1157
+2024-08-31 15:13:31,844 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted - The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+2024-08-31 15:13:31,913 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted -    at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at HV.TOEntity.Compressor.Decompress(Byte[] gzBuffer) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\INV.Framework.Entitys\Compressor.cs:line 41
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 793
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 410
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 369
+2024-08-31 15:14:00,731 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted - The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+2024-08-31 15:14:00,732 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted -    at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at HV.TOEntity.Compressor.Decompress(Byte[] gzBuffer) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\INV.Framework.Entitys\Compressor.cs:line 41
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 793
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 410
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 369
+2024-08-31 15:14:04,377 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted - The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+2024-08-31 15:14:04,377 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted -    at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at HV.TOEntity.Compressor.Decompress(Byte[] gzBuffer) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\INV.Framework.Entitys\Compressor.cs:line 41
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 793
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 410
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 369
+2024-08-31 15:21:14,440 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted - The magic number in GZip header is not correct. Make sure you are passing in a GZip stream.
+2024-08-31 15:21:14,442 ERROR [1] Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted -    at System.IO.Compression.GZipDecoder.ReadHeader(InputBuffer input)
+   at System.IO.Compression.Inflater.Decode()
+   at System.IO.Compression.Inflater.Inflate(Byte[] bytes, Int32 offset, Int32 length)
+   at System.IO.Compression.DeflateStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at System.IO.Compression.GZipStream.Read(Byte[] array, Int32 offset, Int32 count)
+   at HV.TOEntity.Compressor.Decompress(Byte[] gzBuffer) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\INV.Framework.Entitys\Compressor.cs:line 41
+   at QuestionView.Public.ShowDataTructInDoc.ViewRecommendvalue(Byte[] recommendValue) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 87
+   at QuestionView.Public.ShowDataTructInDoc.GetRtfStructQuestion(String& strRtfExport, List`1 lstQues, List`1 lstSubQues) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\Public\ShowDataTructInDoc.cs:line 793
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_Method() in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 410
+   at Plugin.EditQuestion.ViewModels.ViewModelMainOffline.ExportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.EditQuestion\ViewModels\ViewModelMainOffline.cs:line 369
+2024-08-31 18:00:53,324 ERROR [1] Plugin.EditQuestion.ViewModels.EditQuestions_ViewModel.LoadForm - Could not load type 'DELEGATE_VOID_GET_INFO' from assembly 'INV.Framework.CreateQuestion.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2024-08-31 20:13:43,939 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted - Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+2024-08-31 20:13:43,999 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted -    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at QuestionView.ReadWord.SplitQGroup(Document doc, Int32& quesid, Int32& ansid, List`1& lstErrorMess, Boolean begin) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ReadWord.cs:line 509
+   at QuestionView.ReadWord.GetQuestion(List`1& lstQuess, List`1& lstSubs, List`1& lstErrorMess) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\QuestionView\ReadWord.cs:line 198
+   at Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_Method(OpenFileDialog ofd) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\ViewModelMainOffline.cs:line 2318
+   at Plugin.UpdateQuestionFromFile.ViewModels.ViewModelMainOffline.ImportCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\ViewModelMainOffline.cs:line 2256
+2024-08-31 20:53:03,316 ERROR [1] Plugin.UpdateEachQuestion.ViewModels.ViewModelMainNew.<get_TypeSelectionChangedCommand>b__62_0 - Could not load type 'DELEGATE_VOID_GET_INFO' from assembly 'INV.Framework.CreateQuestion.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2024-08-31 20:53:45,367 ERROR [1] Plugin.UpdateEachQuestion.ViewModels.ViewModelMainNew.<get_TypeSelectionChangedCommand>b__62_0 - Could not load type 'DELEGATE_VOID_GET_INFO' from assembly 'INV.Framework.CreateQuestion.Library, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'.
+2024-08-31 22:06:45,449 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted - The process cannot access the file 'E:\OS\test_pro\TenDeGocTNNDon2.doc' because it is being used by another process.
+2024-08-31 22:06:45,521 ERROR [1] Plugin.UpdateQuestionFromFile.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at Aspose.Words.Document.(Stream , String , SaveOptions )
+   at Aspose.Words.Document.Save(String fileName)
+   at Plugin.UpdateQuestionFromFile.ViewModels.BLLAposeWord.SaveRtfToFileWord(String strRtf, String strPathFile) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\BLLAposeWord.cs:line 16
+   at Plugin.UpdateQuestionFromFile.ViewModels.EditRichTextBox_ViewModel.SaveCommand_Method(Object objInput) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\EditRichTextBox_ViewModel.cs:line 194
+   at Plugin.UpdateQuestionFromFile.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.UpdateQuestionFromFile\ViewModels\EditRichTextBox_ViewModel.cs:line 174
+2024-08-31 22:30:45,631 ERROR [1] Plugin.InspectQuestion.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted - The process cannot access the file 'E:\OS\test_pro\TenDeGocTNNDon2.doc' because it is being used by another process.
+2024-08-31 22:30:45,676 ERROR [1] Plugin.InspectQuestion.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted -    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at Aspose.Words.Document.(Stream , String , SaveOptions )
+   at Aspose.Words.Document.Save(String fileName)
+   at Plugin.InspectQuestion.ViewModels.BLLAposeWord.SaveRtfToFileWord(String strRtf, String strPathFile) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\BLLAposeWord.cs:line 19
+   at Plugin.InspectQuestion.ViewModels.EditRichTextBox_ViewModel.SaveCommand_Method(Object objInput) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\EditRichTextBox_ViewModel.cs:line 177
+   at Plugin.InspectQuestion.ViewModels.EditRichTextBox_ViewModel.SaveCommand_RunWorkerCompleted(Object arg1, RunWorkerCompletedEventArgs arg2) in E:\OS\test_pro\src_git_hub\OutSource_InTest\LanTest\TestPro-Client\Clients\Plugin.InspectQuestion\ViewModels\EditRichTextBox_ViewModel.cs:line 158
